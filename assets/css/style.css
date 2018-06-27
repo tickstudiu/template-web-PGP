@@ -1,0 +1,151 @@
+body{
+  font-size: 1vw;
+}
+
+.bg-dark-red-p-9 {
+  background-color: rgba(56,10,17,0.9);
+}
+
+.bg-dark-transparent {
+  background-color: rgba(53, 59, 65, 0.9);
+}
+
+.bg-brown-light-transparent{
+  background: rgba(130,65,50,0.85);
+}
+
+.bg-black-transparent{
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.bg-danger-transparent{
+  background-color: rgba(220, 53, 69, 0.9);
+}
+
+.bg-pink{
+  background-color: #DB5665;
+}
+
+.text-light-dark{
+  color: #999c9f;
+}
+
+.h-cover{
+  height: 100vh;
+}
+
+.height-cover-page{
+  height: 100vh;
+}
+
+@media (max-width: 768px){
+  body{
+    font-size: 95%;
+  }
+
+  .height-cover-page{
+    height: auto;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+}
+
+/* background img */
+
+.bg-laptop{
+  background: url(https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/Electronics/CR-BG-Computer-HERO-08-16);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-laptop-2{
+  background: url(http://papers.co/wallpaper/papers.co-mp32-macbook-air-bokeh-art-apple-27-wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* carousel and text over carousel */
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* navigation bar style */
+
+.navbar{
+  transition: all 0.5s;
+}
+
+/* about navigation style */
+
+.card-img-overlay:not(:hover){
+  opacity: 0;
+}
+
+.card-img-overlay{
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+/*
+
+about button and button animation
+with font awesome or some divider
+
+*/
+
+i{
+  transition: all 0.5s;
+}
+
+button[type="button"]:hover > i {
+  transform: translate(5px, 0);
+}
+
+/* padding and margin contrall */
+
+@media (min-width: 768px) {
+  .mt-md-5,
+  .my-md-5 {
+    margin-top: 2rem !important;
+  }
+
+  .mb-md-5,
+  .my-md-5 {
+    margin-bottom: 2rem !important;
+  }
+
+  .mt-md-6,
+  .my-md-6 {
+    margin-top: 2.5rem !important;
+  }
+
+  .mb-md-6,
+  .my-md-6 {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .mt-md-7,
+  .my-md-7 {
+    margin-top: 3rem !important;
+  }
+
+  .mb-md-7,
+  .my-md-7 {
+    margin-bottom: 3rem !important;
+  }
+}
