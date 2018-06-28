@@ -2,16 +2,20 @@ $(document).ready(function(){
   // get element
   var nav = document.getElementById("navbar");
 
-  //on scroll event
+  //on scroll event wil do..
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
 
     // remove class when offset form top below 350
     if(currentScrollPos < 350){
+
+      // remove class you want
       nav.classList.remove("bg-brown-light-transparent");
       nav.classList.remove("py-4");
     }
     else {
+
+      // add class you want
       nav.classList.add("bg-brown-light-transparent");
       nav.classList.add("py-4");
     }
@@ -31,7 +35,7 @@ $(document).ready(function(){
       var hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      // The optional number (750) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 750, function(){

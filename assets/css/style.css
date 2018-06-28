@@ -1,6 +1,10 @@
+/* normal style */
+
 body{
   font-size: 1vw;
 }
+
+/* background color */
 
 .bg-dark-red-p-9 {
   background-color: rgba(56,10,17,0.9);
@@ -26,9 +30,13 @@ body{
   background-color: #DB5665;
 }
 
+/* aboute text style */
+
 .text-light-dark{
   color: #999c9f;
 }
+
+/* height and width */
 
 .h-cover{
   height: 100vh;
@@ -38,7 +46,7 @@ body{
   height: 100vh;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1000px){
   body{
     font-size: 95%;
   }
@@ -47,6 +55,12 @@ body{
     height: auto;
   }
 
+}
+
+@media (min-width: 1000px) {
+  .w-lg-100 {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -114,6 +128,12 @@ i{
 
 button[type="button"]:hover > i {
   transform: translate(5px, 0);
+}
+
+/* overflow div */
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 /* padding and margin contrall */
